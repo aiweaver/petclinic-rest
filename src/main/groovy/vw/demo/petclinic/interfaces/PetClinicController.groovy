@@ -22,7 +22,7 @@ class PetClinicController {
     }
 
     @GetMapping("/developer")
-    ResponseEntity getName(){
+    ResponseEntity getDeveloper(){
         return ResponseEntity.ok("AI Weaver")
     }
 }
